@@ -14,99 +14,102 @@
 
 PRODUCT_PACKAGES += \
 	bt_addr \
+	hvdcp \
+	irsc_util \
+	netmgrd \
+	qmiproxy \
+	qmuxd \
+	qseecomd \
 	rmt_storage \
+	sct_service \
 	ta_qmi_service \
 	tad_static \
 	wcnss_addr \
 	wcnss_service \
-	libdiag \
+	MTP_Bluetooth_cal \
+	MTP_General_cal \
+	MTP_Global_cal \
+	MTP_Handset_cal \
+	MTP_Hdmi_cal \
+	MTP_Headset_cal \
+	MTP_Speaker_cal \
+	a225_pfp \
+	a225_pm4 \
+	a225p5_pm4 \
+	a300_pfp \
+	a300_pm4 \
+	a330_pfp \
+	a330_pm4 \
+	leia_pfp_470 \
+	leia_pm4_470 \
+	WCNSS_cfg \
+	WCNSS_qcom_cfg \
+	WCNSS_qcom_wlan_nv \
+	libidd \
+	libkeyctrl \
 	libmiscta \
+	libpin-cache \
+	libprotobuf-c \
 	libta \
-	libdrmwvmplugin \
+	audio_effects \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	eglsubAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
 	libGLESv2_adreno \
 	libq3dtools_adreno \
-	lib-dplmedia \
-	lib-imsSDP \
-	lib-imsdpl \
-	lib-imsqimf \
-	lib-imsrcs \
-	lib-imss \
-	lib-imsvt \
-	lib-imsxml \
-	lib-rcsimssjni \
-	lib-rcsjni \
-	lib-rtpcommon \
-	lib-rtpcore \
-	lib-rtpdaemoninterface \
-	lib-rtpsl \
 	libC2D2 \
-	libCB \
-	libDivxDrm \
-	libHevcSwDecoder \
-	libI420colorconvert \
-	libNimsWrap \
-	libOmxEvrcDec \
-	libOmxQcelp13Dec \
 	libOpenCL \
 	libOpenVG \
 	libQSEEComAPI \
 	libRSDriver_adreno \
-	libSHIMDivxDrm \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
+	libadiertac \
 	libadreno_utils \
 	libadsprpc \
-	libalarmservice_jni \
+	libaudcal \
+	libaudioalsa \
+	libbtnv \
 	libc2d2_z180 \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libc2d30 \
-	libcneapiclient \
-	libcneconn \
-	libcneutils \
-	libdiagbridge \
-	libdisp-aba \
-	libdrmdiag \
+	libdiag \
 	libdrmfs \
-	libdrmtime \
-	libfastcvopt \
-	libgeofence \
+	libdsi_netctrl \
+	libdsnetutils \
+	libdsutils \
 	libgsl \
-	libizat_core \
-	liblistensoundmodel \
-	libllvm-qcom \
-	libloc2jnibridge \
+	libidl \
+	libloc_api_v02 \
+	libloc_ds_api \
+	libmm-abl-oem \
 	libmm-abl \
 	libmm-color-convertor \
-	libmm-hdcpmgr \
-	libmmQSM \
-	libmmQTA \
-	libmsapm_jni \
-	libprdrmdecrypt \
-	libqc-opt \
-	libquipc_os_api \
-	libquipc_ulp_adapter \
-	librpmb \
+	libnetmgr \
+	libqcci_legacy \
+	libqdi \
+	libqdp \
+	libqmi \
+	libqmi_cci \
+	libqmi_client_qmux \
+	libqmi_common_so \
+	libqmi_csi \
+	libqmi_csvt_srvc \
+	libqmi_encdec \
+	libqmiservices \
+	libril-qc-qmi-1 \
 	librs_adreno \
 	librs_adreno_sha1 \
 	libsc-a2xx \
 	libsc-a3xx \
-	libscale \
-	libscve \
-	libsrsprocessing \
-	libssd \
-	libtzdrmgenprov \
-	libtzplayready \
-	libulp2 \
-	libwifiscanner \
-	libxt_native \
-	libxtadapter \
-	libwvdrmengine \
-	libadsp_denoise_skel \
-	libdspCV_skel \
-	libfastcvadsp \
-	libfastcvadsp_skel \
+	libtime_genoff \
 	libqcbassboost \
 	libqcreverb \
 	libqcvirt

@@ -15,19 +15,23 @@
 PRODUCT_PACKAGES += \
 	bt_addr \
 	hci_qcomm_init \
+	hvdcp \
 	irsc_util \
 	netmgrd \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	ta_qmi_service \
-	wcnss_addr \
 	tad_static \
-	Bluetooth_cal \
-	General_cal \
-	Global_cal \
-	Hdmi_cal \
-	Headset_cal \
+	wcnss_addr \
+	MTP_Bluetooth_cal \
+	MTP_General_cal \
+	MTP_Global_cal \
+	MTP_Handset_cal \
+	MTP_Hdmi_cal \
+	MTP_Headset_cal \
+	MTP_Speaker_cal \
 	a225_pfp \
 	a225_pm4 \
 	a225p5_pm4 \
@@ -48,11 +52,6 @@ PRODUCT_PACKAGES += \
 	adsp_b10 \
 	adsp_b11 \
 	adsp_mdt \
-	PS_ASIC \
-	RamPatch \
-	bdata_bin_sdio \
-	bdata_bin_usb \
-	fw.ram \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
@@ -73,11 +72,14 @@ PRODUCT_PACKAGES += \
 	touch_module_id_0x4f \
 	touch_module_id_0x50 \
 	touch_module_id_0x51 \
+	touch_module_id_0x53 \
+	touch_module_id_0x54 \
 	touch_module_id_0x57 \
 	touch_module_id_0x59 \
 	touch_module_id_0x5a \
 	touch_module_id_0x5b \
 	touch_module_id_0x5c \
+	touch_module_id_0x5d \
 	touch_module_id_0x5e \
 	touch_module_id_0x5f \
 	tzhdcp_b00 \
@@ -119,32 +121,20 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	copybit.msm8974 \
 	nfc.msm8974 \
-	libMcClient \
-	libMcRegistry \
-	libOmxAacEnc \
-	libOmxAmrEnc \
-	libOmxCore \
-	libOmxEvrcEnc \
-	libOmxQcelp13Enc \
-	libOmxVdec \
-	libOmxVenc \
-	libc2dcolorconvert \
-	libcnefeatureconfig \
-	libdivxdrmdecrypt \
 	libidd \
 	libkeyctrl \
 	libmiscta \
-	libmm-omxcore \
-	libmmjpeg_interface \
-	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
-	libqomx_core \
-	libstagefrighthw \
 	libta \
+	audio_effects \
 	effect_init_params \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	libpn544_fw \
 	eglsubAndroid \
 	libEGL_adreno \
@@ -153,8 +143,6 @@ PRODUCT_PACKAGES += \
 	libq3dtools_adreno \
 	sensors.msm8974 \
 	libC2D2 \
-	libCB \
-	libI420colorconvert \
 	libOpenCL \
 	libOpenVG \
 	libQSEEComAPI \
@@ -165,34 +153,27 @@ PRODUCT_PACKAGES += \
 	libadiertac \
 	libadreno_utils \
 	libadsprpc \
+	libaudcal \
+	libaudioalsa \
 	libbtnv \
 	libc2d2_z180 \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libc2d30 \
-	libcneapiclient \
-	libcneqmiutils \
-	libcneutils \
 	libdiag \
 	libdrmfs \
 	libdsi_netctrl \
 	libdsnetutils \
 	libdsutils \
-	libfastcvadsp_stub \
-	libfastcvopt \
 	libgsl \
 	libidl \
-	liblistenhardware \
-	libllvm-qcom \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
 	libmm-color-convertor \
-	libmmjpeg \
-	libmmqjpeg_codec \
 	libnetmgr \
-	libqc-opt \
 	libqcci_legacy \
-	libqcgesture \
 	libqdi \
 	libqdp \
 	libqmi \
@@ -203,17 +184,14 @@ PRODUCT_PACKAGES += \
 	libqmi_csvt_srvc \
 	libqmi_encdec \
 	libqmiservices \
-	libqomx_jpegdec \
-	libqomx_jpegenc \
 	libril-qc-qmi-1 \
-	librpmb \
 	librs_adreno \
 	librs_adreno_sha1 \
 	libsc-a2xx \
 	libsc-a3xx \
 	libsensor1 \
 	libsensor_reg \
-	libsubsystem_control \
 	libtime_genoff \
-	libulp2 \
-	libxml
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt

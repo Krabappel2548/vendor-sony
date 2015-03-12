@@ -14,27 +14,16 @@
 
 PRODUCT_PACKAGES += \
 	bt_addr \
+	hvdcp \
 	irsc_util \
+	mlog_qmi_service \
 	netmgrd \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	ta_qmi_service \
 	tad_static \
-	Fluid_Bluetooth_cal \
-	Fluid_General_cal \
-	Fluid_Global_cal \
-	Fluid_Handset_cal \
-	Fluid_Hdmi_cal \
-	Fluid_Headset_cal \
-	Fluid_Speaker_cal \
-	Liquid_Bluetooth_cal \
-	Liquid_General_cal \
-	Liquid_Global_cal \
-	Liquid_Handset_cal \
-	Liquid_Hdmi_cal \
-	Liquid_Headset_cal \
-	Liquid_Speaker_cal \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
@@ -49,88 +38,22 @@ PRODUCT_PACKAGES += \
 	a300_pm4 \
 	a330_pfp \
 	a330_pm4 \
-	adsp_b00 \
-	adsp_b01 \
-	adsp_b02 \
-	adsp_b03 \
-	adsp_b04 \
-	adsp_b05 \
-	adsp_b06 \
-	adsp_b07 \
-	adsp_b08 \
-	adsp_b09 \
-	adsp_b10 \
-	adsp_b11 \
-	adsp_b12 \
-	adsp_mdt \
-	cmnlib_b00 \
-	cmnlib_b01 \
-	cmnlib_b02 \
-	cmnlib_b03 \
-	cmnlib_mdt \
 	leia_pfp_470 \
 	leia_pm4_470 \
-	mba_b00 \
-	mba_mdt \
-	touch_module_id_0x45 \
-	touch_module_id_0x48 \
-	touch_module_id_0x4d \
-	touch_module_id_0x4e \
-	tzhdcp_b00 \
-	tzhdcp_b01 \
-	tzhdcp_b02 \
-	tzhdcp_b03 \
-	tzhdcp_mdt \
-	tzlibasb_b00 \
-	tzlibasb_b01 \
-	tzlibasb_b02 \
-	tzlibasb_b03 \
-	tzlibasb_mdt \
-	tznautilus_b00 \
-	tznautilus_b01 \
-	tznautilus_b02 \
-	tznautilus_b03 \
-	tznautilus_mdt \
-	tzsuntory_b00 \
-	tzsuntory_b01 \
-	tzsuntory_b02 \
-	tzsuntory_b03 \
-	tzsuntory_mdt \
-	venus_b00 \
-	venus_b01 \
-	venus_b02 \
-	venus_b03 \
-	venus_b04 \
-	venus_mbn \
-	venus_mdt \
-	bcm4339_aps \
-	bcm4339_sta \
-	audio.primary.msm8974 \
-	copybit.msm8974 \
-	nfc_nci.msm8974 \
-	libMcClient \
-	libMcRegistry \
-	libOmxAacEnc \
-	libOmxAmrEnc \
-	libOmxCore \
-	libOmxEvrcEnc \
-	libOmxQcelp13Enc \
-	libOmxVdec \
-	libOmxVenc \
-	libc2dcolorconvert \
-	libdivxdrmdecrypt \
 	libidd \
 	libkeyctrl \
-	liblights-core \
 	libmiscta \
 	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
-	libstagefrighthw \
-	libsys-utils \
 	libta \
-	libvirtual \
+	audio_effects \
 	effect_init_params \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	libpn547_fw \
 	eglsubAndroid \
 	libEGL_adreno \
@@ -139,8 +62,6 @@ PRODUCT_PACKAGES += \
 	libq3dtools_adreno \
 	sensors.msm8974 \
 	libC2D2 \
-	libCB \
-	libI420colorconvert \
 	libOpenCL \
 	libOpenVG \
 	libQSEEComAPI \
@@ -153,24 +74,24 @@ PRODUCT_PACKAGES += \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
+	libbtnv \
 	libc2d2_z180 \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libc2d30 \
 	libdiag \
-	libdrmdiag \
 	libdrmfs \
-	libdrmtime \
 	libdsi_netctrl \
 	libdsnetutils \
 	libdsutils \
 	libgsl \
 	libidl \
-	libllvm-qcom \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
+	libmm-color-convertor \
 	libnetmgr \
-	libqc-opt \
 	libqcci_legacy \
 	libqdi \
 	libqdp \
@@ -189,4 +110,7 @@ PRODUCT_PACKAGES += \
 	libsc-a3xx \
 	libsensor1 \
 	libsensor_reg \
-	libtime_genoff
+	libtime_genoff \
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt
