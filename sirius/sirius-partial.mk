@@ -14,8 +14,5 @@
 
 PRODUCT_PACKAGES += \
 	sensors \
-	libril \
-	librilutils \
 	fw_bcmdhd \
-	fw_bcmdhd_apsta \
-	libril-qc-qmi-1
+	fw_bcmdhd_apsta
